@@ -1,0 +1,298 @@
+html {
+  scroll-behavior: smooth;
+  /*добавление плавного скролла */
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+section {
+  padding: 150px 125px 0 125px;
+}
+
+.nav__container {
+  width: 1151.35px;
+  height: 25.18px;
+  margin: 0px auto;
+  padding-top: 32.82px;
+}
+
+.logo__link {
+  display: inline-block;
+
+}
+
+.logo {
+  display: block;
+  width: 110px;
+  height: 21.42px;
+  margin-right: 558.46px;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  /*перемещение на верх */
+}
+
+
+
+.nav__link {
+  display: inline-block;
+  margin-right: 60px;
+  line-height: 60px;
+  text-align: center;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
+.nav__link_active {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+
+section:first-child {
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: #ffffff;
+}
+
+.image_text {
+  position: absolute;
+  left: 40px;
+  bottom: 41px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  width: 956px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(18, 18, 18);
+  margin-bottom: 30px;
+}
+
+.rectangle1 {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-image: url("../resources/rectangle1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.btn1 {
+  width: 51px;
+  height: 25px;
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 90px;
+}
+
+p.block2-p {
+  color: rgb(18, 18, 18);
+  font-family: Manrope;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(173, 24, 24);
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.items__projects {
+  padding-bottom: 150px;
+}
+
+.items__block3 {
+  width: 1150px;
+  height: 2122px;
+}
+
+.block3 {
+  margin-bottom: 90px;
+}
+
+.items__block3-title {
+  width: 79px;
+  height: 25px;
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  margin-bottom: 30px;
+}
+
+.block3__image {
+  display: block;
+  width: 1150px;
+  height: 450px;
+  margin-bottom: 15px;
+}
+
+.block3__title {
+  height: 41px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: rgb(18, 18, 18);
+  margin-bottom: 15px;
+  letter-spacing: -0.03em;
+}
+
+.block3__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  color: rgb(173, 24, 24);
+}
+
+.full_btn {
+  display: block;
+  border: 1px solid rgb(173, 24, 24);
+  position: absolute;
+  width: 1150px;
+  height: 153px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  padding: 56px;
+  color: rgb(173, 24, 24);
+  text-decoration: none;
+}
+
+.full_btn:hover {
+  background: rgb(173, 24, 24);
+  color: rgb(255, 255, 255);
+}
+
+.section-black {
+  box-sizing: border-box;
+  width: 1400px;
+  height: 1844px;
+  padding: 125px;
+  background-color: rgb(18, 18, 18);
+  margin-bottom: 0;
+}
+
+.section__title {
+  box-sizing: border-box;
+  padding-top: 26px;
+  padding-bottom: 34px;
+  padding-left: 3px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+}
+
+.service {
+  width: 1150px;
+  height: 326px;
+  margin-bottom: 60px;
+}
+
+.service__image {
+  width: 1150px;
+  height: 270px;
+  margin-bottom: 15px;
+}
+
+.service__title {
+  height: 41px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  margin-left: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.block4:nth-last-child(1) {
+  /*позволяет добавить какие-то изменения в определенный блок */
+  margin-bottom: 0px;
+}
+
+
+.bedroom {
+  position: relative;
+  height: 717px;
+  background-image: url(/resources/bedroom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*cover - картинка тянется, занимает 100% ширины всегда
+                          contain-будет вписываться в блок, не ломая пропорции */
+  background-position: 50% 50%;
+  /*картинка всегда будет стоять по центру */
+}
+
+
+.bedroom__text {
+  position: absolute;
+  width: 443px;
+  height: 82px;
+  left: 125px;
+  right: 832px;
+  top: 575px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+}
