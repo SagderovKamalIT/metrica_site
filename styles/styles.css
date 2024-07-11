@@ -7,6 +7,7 @@ body {
   font-family: "Manrope", sans-serif;
   width: 100%;
   background: #f5f5f5;
+  letter-spacing: -0.03em;
 }
 
 section {
@@ -49,19 +50,21 @@ section {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: -0.03em;
-  color: rgb(18, 18, 18);
   text-decoration: none;
+  color: rgb(18, 18, 18)
 }
+
+.nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
 
 .nav__link:last-child {
   margin-right: 0;
+
 }
 
-.nav__link_active {
-  text-decoration: underline;
-  opacity: 0.5;
-}
 
 
 section:first-child {
@@ -70,7 +73,6 @@ section:first-child {
 
 .container {
   margin: 0 auto;
-  width: 1400px;
   background-color: #ffffff;
 }
 
@@ -82,7 +84,6 @@ section:first-child {
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #ffffff;
 }
 
@@ -134,7 +135,6 @@ p.block2-p {
   font-size: 45px;
   font-weight: 400;
   line-height: 61px;
-  letter-spacing: -0.03em;
   text-align: left;
   margin-top: 30px;
 }
@@ -169,7 +169,6 @@ p.block2-p {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: -0.03em;
   margin-bottom: 30px;
 }
 
@@ -185,10 +184,8 @@ p.block2-p {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: rgb(18, 18, 18);
   margin-bottom: 15px;
-  letter-spacing: -0.03em;
 }
 
 .block3__link {
@@ -196,7 +193,6 @@ p.block2-p {
   font-weight: 400;
   line-height: 27px;
   text-decoration: none;
-  letter-spacing: -0.03em;
   color: rgb(173, 24, 24);
 }
 
@@ -209,7 +205,6 @@ p.block2-p {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   text-align: center;
   padding: 56px;
   color: rgb(173, 24, 24);
@@ -223,7 +218,6 @@ p.block2-p {
 
 .section-black {
   box-sizing: border-box;
-  width: 1400px;
   height: 1844px;
   padding: 125px;
   background-color: rgb(18, 18, 18);
@@ -238,7 +232,6 @@ p.block2-p {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: -0.03em;
   color: rgb(255, 255, 255);
 }
 
@@ -259,7 +252,6 @@ p.block2-p {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   margin-left: 3px;
   color: rgb(255, 255, 255);
 }
@@ -293,6 +285,52 @@ p.block2-p {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: rgb(255, 255, 255);
+}
+
+.phone_before::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 12px;
+  margin-left: -5px;
+  background-image: url(/resources/iphone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone_contacts{
+  padding-top: 186px;
+  padding-bottom: 151px;
+}
+
+.contacts {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(18, 18, 18);
+}
+
+.phone_number {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.mail {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  color: rgb(18, 18, 18);
+  opacity: 0.5;
+  
+  
 }
