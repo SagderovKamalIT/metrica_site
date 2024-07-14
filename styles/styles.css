@@ -277,7 +277,7 @@ p.block2-p {
 .bedroom {
   position: relative;
   height: 717px;
-  background-image: url(../resources/bedroom.png);
+  background-image: url("../resources/bedroom.png");
   background-repeat: no-repeat;
   background-size: cover;
   /*cover - картинка тянется, занимает 100% ширины всегда
